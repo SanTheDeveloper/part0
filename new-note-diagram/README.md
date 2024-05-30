@@ -13,7 +13,7 @@
 
     user->>browser: Enters the input
     activate browser
-    user->> Clicks on save button
+    user->>browser: Clicks on save button
     deactivate browser
     Note right of browser: when save button is clicked by user, browser sends user input to the server.
 
